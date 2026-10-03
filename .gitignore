@@ -19,9 +19,14 @@ resume_ds_temp.html
 resume_ds_test_layout.html
 test_stacked.pdf
 
+# Reference & Benchmark Candidate Resumes (Keep private to respect candidate data privacy)
+benchmark_reference_resumes/
+*.zip
+
 # OS & Editor Artifacts
 .DS_Store
 Thumbs.db
 *.log
 .vscode/
 .idea/
+

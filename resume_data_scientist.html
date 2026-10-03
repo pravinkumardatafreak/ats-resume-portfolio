@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pravin Kumar R - Data Scientist Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="resume-body">
+
+  <!-- Floating Action Bar for Standalone View -->
+  <div class="standalone-bar no-print">
+    <button class="btn btn-print" onclick="window.print()" title="Print or save as 1-page PDF">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+      Print / Save PDF
+    </button>
+    <button class="btn btn-copy" onclick="copyStandaloneATS('ds')" title="Copy ATS Plaintext">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+      Copy ATS Text
+    </button>
+    <a class="btn btn-back" href="index.html" title="Back to All 3 Resumes Hub">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      All 3 Resumes Hub
+    </a>
+  </div>
+
+  <div class="resume-paper" id="resumePaper">
+
+    <!-- HEADER -->
+    <header class="resume-header-92">
+      <h1 class="name-92">PRAVIN KUMAR R</h1>
+      <div class="title-92">DATA SCIENTIST</div>
+      <div class="contact-line-92">
+        <span>Location: Kurinjipadi, Tamil Nadu &ndash; 607303</span>
+        <span class="bar-sep">|</span>
+        <span>Phone: +91 88259 38327</span>
+        <span class="bar-sep">|</span>
+        <span>Email: <a href="mailto:pravinrajavel@gmail.com">pravinrajavel@gmail.com</a></span>
+      </div>
+      <div class="contact-line-92 contact-row-2">
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/pravin-kumar-ds/" target="_blank" rel="noopener">linkedin.com/in/pravin-kumar-ds</a></span>
+        <span class="bar-sep">|</span>
+        <span>GitHub: <a href="https://github.com/pravinkumardatafreak" target="_blank" rel="noopener">github.com/pravinkumardatafreak</a></span>
+      </div>
+    </header>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <section class="section-92">
+      <h2 class="heading-92">PROFESSIONAL SUMMARY</h2>
+      <p class="paragraph-92">
+        Data Scientist with a solid foundation in Civil Engineering (B.E., First Class) and a successful transition into Data Science through self-driven exploration of financial markets, quantitative analysis, and systematic decision-making. Demonstrated expertise in engineering end-to-end machine learning pipelines, achieving impressive results in deep sequence forecasting (2.06% 1D MAPE), computer vision-based regression (55.22 weighted EMD), and multi-agent RAG systems. Proficient in Python, SQL, PyTorch, Scikit-Learn, Docker, and FastAPI, leveraging a hands-on engineering mindset to tackle complex challenges in FinTech, GeoAI, and applied AI domains. Committed to delivering innovative solutions that drive data-driven decision-making and enhance operational efficiency.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section-92">
+      <h2 class="heading-92">SKILLS</h2>
+      <ul class="skills-list-92">
+        <li><strong>Programming &amp; Databases:</strong> Python, SQL, SQLite, SQLAlchemy, REST APIs, FastAPI</li>
+        <li><strong>Machine Learning:</strong> Scikit-Learn, XGBoost, Random Forest, Multi-Task Elastic Net, Ridge, PCA, K-Means, KNN, Feature Engineering, EDA</li>
+        <li><strong>Deep Learning &amp; NLP:</strong> PyTorch, PatchTST, LSTMs, CNNs, Hugging Face Transformers, Sentence-BERT, TF-IDF, VADER, Multi-Agent RAG, SHAP</li>
+        <li><strong>Computer Vision &amp; Tools:</strong> OpenCV, EfficientNet, ResNet, Canny Edge Detection, Docker, Streamlit, Plotly, Git, GitHub Actions CI</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section-92">
+      <h2 class="heading-92">PROJECTS</h2>
+
+      <!-- Project 1: CryptoCast -->
+      <div class="project-block-92">
+        <div class="project-header-nav">
+          <span class="item-title-92">CryptoCast: Multi-Horizon Deep Sequence Forecasting</span>
+          <span class="project-tech-nav">Tools: Python, PyTorch, PatchTST, LSTM, Streamlit, SHAP</span>
+        </div>
+        <ul class="bullet-list-92">
+          <li>Architected a multi-horizon Bitcoin sequence forecasting pipeline across <strong>~5,000 daily records (2010–2024)</strong> utilizing 60-day rolling windows and chronological Walk-Forward Validation.</li>
+          <li>Validated 5 PyTorch architectures (1D-CNN, RNN, LSTM, Transformer, PatchTST) under Walk-Forward Validation, achieving <strong>2.06% MAPE at 1 day</strong> (LSTM) and <strong>3.74% &amp; 5.93% MAPE at 3-day and 7-day horizons</strong> (PatchTST with RevIN).</li>
+          <li>Engineered protocol supply features (Halving cycles, Block Reward) to drive a <strong>$92 MAE reduction</strong> on 7-day horizon ablations, deploying an <strong>11-page Streamlit analytics studio</strong> with SHAP explainability.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2: ERIA -->
+      <div class="project-block-92">
+        <div class="project-header-nav">
+          <span class="item-title-92">Education Regulation Impact Analyzer (ERIA)</span>
+          <span class="project-tech-nav">Tools: Groq LLaMA 3.3 70B, Multi-Agent RAG, DistilRoBERTa, Hugging Face</span>
+        </div>
+        <ul class="bullet-list-92">
+          <li>Orchestrated an autonomous 4-agent regulatory intelligence system (Analyst, Critic, Refiner, Strategist) powered by Groq LLaMA 3.3 70B to parse complex <strong>50+ page policy documents</strong>.</li>
+          <li>Engineered contextual chunking with TF-IDF and cosine similarity retrieval, integrating an <strong>automated Critic LLM evaluation gate</strong> scoring draft grounding, consistency, and completeness on a 10-point scale.</li>
+          <li>Integrated a local DistilRoBERTa transformer for <strong>7-class stakeholder emotion classification</strong>; deployed the interactive application on <strong>Hugging Face Spaces</strong> with automated PDF report generation.</li>
+        </ul>
+      </div>
+
+      <div class="extra-projects-note">
+        <em>Other Verified Projects: Soil Grain Size Estimation (55.22 OOF Weighted EMD, Multi-Task Elastic Net), Alveris-Geo-AI (Copernicus DEM &amp; InSAR Climate VaR Engine), HuBMAP (Swin-TransUNet, 0.6782 Dice) – available on GitHub.</em>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section class="section-92">
+      <h2 class="heading-92">PROFESSIONAL EXPERIENCE</h2>
+      <div class="exp-block-92">
+        <div class="exp-header-92">
+          <span class="item-title-92">Data Science Intern &mdash; Internship Studio</span>
+          <span class="item-date-92">Jan 2026 &ndash; Feb 2026 | Remote</span>
+        </div>
+        <ul class="bullet-list-92">
+          <li>Analyzed <strong>14,102 Fitbit workout telemetry records</strong>, executing data preprocessing, categorical encoding, and StandardScaler normalization under an 80/20 train-test validation split.</li>
+          <li>Engineered a Random Forest regression model to predict caloric burn, reducing MAE from 34.97 down to <strong>3.78 kcal</strong> (an <strong>89.2% error reduction</strong> over baseline linear models, achieving <strong>R² = 0.9979</strong>).</li>
+          <li>Segmented workouts into 4 physiological exertion zones using PCA and K-Means clustering (<strong>Silhouette score 0.4546</strong>), containerizing models with <strong>Docker</strong> and serving inference via <strong>FastAPI REST endpoints</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section-92">
+      <h2 class="heading-92">EDUCATION</h2>
+      <div class="edu-block-92">
+        <div class="edu-header-92">
+          <span class="item-title-92">Master Data Science Program &mdash; HCL GUVI, IIT Madras Research Park Incubated</span>
+          <span class="item-date-92">Completed Jun 2026</span>
+        </div>
+      </div>
+      <div class="edu-block-92">
+        <div class="edu-header-92">
+          <span class="item-title-92">B.E. Civil Engineering (First Class Honors) &mdash; Rajalakshmi Engineering College, Anna University</span>
+          <span class="item-date-92">Aug 2017 &ndash; May 2021</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section-92">
+      <h2 class="heading-92">CERTIFICATIONS</h2>
+      <div class="certs-line-clean" style="display: block; font-size: 9.5pt; line-height: 1.24;">
+        <div><strong>Certifications:</strong> Data Science &amp; Analytics (HCL GUVI), Build &amp; Deploy AI Apps with Google AI Studio, ML for Earth Observation (EO College), Machine Learning &amp; Pandas (HCL GUVI)</div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

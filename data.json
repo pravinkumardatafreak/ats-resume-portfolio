@@ -1,0 +1,190 @@
+{
+  "personal": {
+    "name": "Pravin Kumar R",
+    "title": "Data Scientist | Machine Learning & GenAI Engineer | Quantitative Analyst",
+    "location": "Kurinjipadi, Tamil Nadu, India",
+    "email": "pravinrajavel@gmail.com",
+    "phone": "+91 88259 38327",
+    "linkedin": "https://www.linkedin.com/in/pravin-kumar-ds/",
+    "linkedinDisplay": "linkedin.com/in/pravin-kumar-ds",
+    "github": "https://github.com/pravinkumardatafreak",
+    "githubDisplay": "github.com/pravinkumardatafreak"
+  },
+  "roles": {
+    "dataScientist": {
+      "targetTitle": "Data Scientist | Machine Learning Engineer",
+      "summary": "Data Science and Machine Learning professional transitioning from an engineering analytical foundation (B.E. Civil Engineering, First Class), with hands-on expertise architecting end-to-end predictive pipelines, autonomous multi-agent GenAI systems, deep computer vision, and sequence forecasting. Built 4-agent regulatory systems with Critic LLM-as-a-Judge validation (>= 8.5/10 Grounding), multi-horizon sequence models achieving 2.06% 1-day forecasting MAPE with RevIN, and resolved small-sample vision traps with group-sparse ElasticNet (55.21 Out-of-Fold EMD). Proficient in Python, SQL, PyTorch, LangChain, Scikit-Learn, Feature Engineering, Walk-Forward Validation, and Streamlit deployment.",
+      "skills": {
+        "coreCompetencies": ["Data Science", "Machine Learning", "Deep Learning", "Generative AI & Agents", "Predictive Modeling", "EDA", "Feature Engineering"],
+        "programming": ["Python", "SQL", "SQLite", "SQLAlchemy", "REST APIs"],
+        "machineLearning": ["PyTorch", "Scikit-Learn", "LangChain", "Groq API (LLaMA 3.3 70B)", "Transformers", "PatchTST", "LSTMs", "Random Forest", "MultiTaskElasticNet"],
+        "dataEngineering": ["Pandas", "NumPy", "SciPy", "Chronological Walk-Forward Validation", "Inferential Statistics (Welch's t-test, Mann-Whitney U)"],
+        "deployment": ["Streamlit", "Hugging Face", "Plotly", "OpenCV", "Git", "GitHub"]
+      },
+      "featuredProjects": ["eria-genai", "cryptocast", "soil-grain-size"]
+    },
+    "genaiEngineer": {
+      "targetTitle": "Generative AI & Machine Learning Engineer",
+      "summary": "Generative AI and Machine Learning Engineer specializing in autonomous multi-agent architectures, self-correcting RAG loops, transformer fine-tuning, and LLM-as-a-Judge evaluation benchmarks. Architected 5-agent stage-gated pipelines integrating live GDELT external APIs with token/cost observability ($0.0087/run) and Groq LLaMA 3.3 70B systems with Critic validation gates scoring Grounding >= 8.5/10 to eliminate hallucinations. Experienced in deploying multimodal vision transformers (Swin-TransUNet, 0.6782 Dice), local DistilRoBERTa emotion classification, and vector retrieval pipelines with sub-second response times. Proficient in Python, LangChain, PyTorch, Hugging Face, Transformers, Groq API, and Streamlit.",
+      "skills": {
+        "genaiAgents": ["Multi-Agent Systems", "Stage-Gated Agent Orchestration", "Self-Correction Loops", "Critic LLM-as-a-Judge", "LangChain", "Groq API", "LLaMA 3.3 70B"],
+        "nlpTransformers": ["Hugging Face Transformers", "DistilRoBERTa", "Sentence-BERT (SBERT)", "TF-IDF Vectorization", "Cosine Similarity Retrieval", "Contextual Chunking"],
+        "deepLearningVision": ["PyTorch", "Vision Transformers (ViT)", "Swin-TransUNet", "Shifted Window Self-Attention", "CNNs", "SVD Optical Density Stain Normalization"],
+        "observabilityOps": ["Telemetry Waterfall (Latency, Token, Cost Tracking)", "Prompt Engineering", "Hallucination Mitigation", "REST APIs", "Git", "GitHub"],
+        "languagesTools": ["Python", "SQL", "Streamlit", "Plotly", "OpenCV", "Scikit-Learn"]
+      },
+      "featuredProjects": ["unfoolable-lens", "eria-genai", "hubmap"]
+    },
+    "quantAnalyst": {
+      "targetTitle": "Quantitative Data Scientist | Financial Risk Analyst",
+      "summary": "Quantitative Data Scientist with an engineering analytical foundation and hands-on expertise architecting deep learning time-series forecasting pipelines, institutional climate risk engines, and algorithmic backtesting suites. Developed PyTorch sequence architectures (PatchTST with RevIN, LSTM) achieving 2.06% 1-day and 3.85% 3-day MAPE under chronological Walk-Forward Validation, and engineered Basel III & SEC Climate Form 497 Value-at-Risk (VaR) haircut waterfalls driven by Copernicus 30m DEM flood routing and InSAR subsidence. Proficient in Python, SQL, SQLAlchemy, PyTorch, rolling Sharpe ratios, maximum drawdown distributions, and inferential hypothesis testing (Welch's t-test, Mann-Whitney U), dedicated to bridging mathematical rigor with enterprise risk management.",
+      "skills": {
+        "quantRisk": ["Multi-Horizon Forecasting", "Basel III Climate VaR", "Rolling Sharpe Ratio", "Maximum Drawdown", "Value-at-Risk (VaR)", "Collateral Haircut Waterfalls"],
+        "deepLearningFinance": ["PyTorch", "PatchTST (Transformer)", "Reversible Instance Normalization (RevIN)", "LSTMs", "1D-CNN", "XGBoost", "Scikit-Learn"],
+        "mathStatistics": ["Chronological Walk-Forward Validation (WFV)", "Welch's t-test", "Mann-Whitney U", "Stationarity & Log Returns", "SHAP Attribution"],
+        "dataDatabases": ["Python", "SQL", "SQLite", "SQLAlchemy", "Pandas", "NumPy", "Yahoo Finance API", "APMC Mandi Commodity Spreads"],
+        "visualizationTools": ["Streamlit (Multi-Page Dashboards)", "Plotly (Waterfall / Financial Charts)", "Git", "GitHub", "Linux"]
+      },
+      "featuredProjects": ["cryptocast", "alveris-geo-ai", "nifty-50"]
+    }
+  },
+  "projects": {
+    "alveris-geo-ai": {
+      "id": "alveris-geo-ai",
+      "title": "Alveris-Geo-AI – Institutional GeoAI & Basel III Climate VaR Engine",
+      "github": "https://github.com/pravinkumardatafreak/alveris-geo-ai",
+      "tools": ["Python", "PyTorch", "13-Band Sentinel-2", "Copernicus DEM", "InSAR", "Basel III", "Streamlit", "Plotly"],
+      "bullets": [
+        "Architected an institutional GeoAI climate risk engine training a 13-band Sentinel-2 PyTorch CNN on Level-2A surface reflectance tensors, achieving 95.98% classification accuracy (+15.02% gain over 3-band RGB).",
+        "Engineered an 8-way morphological coastal flood routing algorithm on Copernicus 30m DEM and modeled multi-decadal InSAR ground subsidence trajectories (2050/2100) to evaluate structural differential settlement.",
+        "Formulated an automated Basel III & SEC Climate Form 497 Value-at-Risk (VaR) haircut waterfall translating physical climate hazards into commercial collateral haircuts with an institutional 85% terminal salvage floor.",
+        "Built an interactive Streamlit decision cockpit with 4 geodetic spatial code gates and 49 passed pytest unit tests (Pylint 10/10), producing audit-ready institutional underwriting memos."
+      ]
+    },
+    "cryptocast": {
+      "id": "cryptocast",
+      "title": "CryptoCast – Multi-Horizon Bitcoin Deep Learning Forecasting Engine",
+      "github": "https://github.com/pravinkumardatafreak/cryptocast",
+      "tools": ["Python", "PyTorch", "PatchTST", "LSTM", "1D-CNN", "Walk-Forward Validation", "SHAP", "Streamlit", "Plotly"],
+      "bullets": [
+        "Developed a multi-horizon deep learning forecasting pipeline benchmarking 5 PyTorch architectures on 5,000+ daily financial records using 60-day chronological rolling windows and training-only feature scaling.",
+        "Achieved best 1-day forecasting accuracy of 2.06% MAPE with LSTM, and best 3-day and 7-day accuracy of 3.85% and 5.93% MAPE with PatchTST utilizing Reversible Instance Normalization (RevIN).",
+        "Engineered whitepaper protocol-level supply features (Halving cycle stage, Block Reward, Days Since Halving) reducing 7-day error by $92 MAE over standard momentum indicators (RSI/SMA).",
+        "Deployed an 11-page interactive Streamlit dashboard featuring SHAP neural explainability, a 3-state trading simulator, and inferential hypothesis testing (Welch's t-test, Mann-Whitney U)."
+      ]
+    },
+    "unfoolable-lens": {
+      "id": "unfoolable-lens",
+      "title": "Unfoolable Lens – Stage-Gated Multi-Agent Rhetoric Deconstructor",
+      "github": "https://github.com/pravinkumardatafreak/unfoolable-lens",
+      "tools": ["Python", "Multi-Agent Systems", "GDELT DOC 2.0 API", "Azure OpenAI / OpenAI", "Streamlit", "Pytest"],
+      "bullets": [
+        "Engineered an autonomous 5-agent stage-gated NLP pipeline (Ingest, Related Coverage, Framing, Skeptic, Synthesis) integrating live GDELT DOC 2.0 API to discover and analyze rival media coverage.",
+        "Designed qualitative extraction gates isolating grammatical shielding (passive voice actor erasure), verb temperature ladders, and statistical gerrymandering to compute calibrated institutional trust verdicts.",
+        "Built a distributed telemetry waterfall logging latency, token consumption, and per-query operational cost ($0.0087/run); implemented typed dataclass contracts with 13 passed pytest unit tests.",
+        "Deployed an interactive Streamlit analytical dashboard featuring side-by-side comparative matrices, 'Omitted Everywhere' systemic context banners, and graceful API degradation."
+      ]
+    },
+    "eria-genai": {
+      "id": "eria-genai",
+      "title": "ERIA – Autonomous Education Regulation Impact Analyzer",
+      "github": "https://github.com/pravinkumardatafreak/ERIA-Education-Analyzer",
+      "tools": ["Groq LLaMA 3.3 70B", "Multi-Agent RAG", "LangChain", "DistilRoBERTa", "LLM-as-a-Judge", "Streamlit", "Hugging Face"],
+      "bullets": [
+        "Architected an autonomous 4-agent regulatory intelligence system (Analyst, Critic, Refiner, Strategist) on Groq LLaMA 3.3 70B to synthesize complex 50+ page UGC/AICTE policy documents.",
+        "Constructed an automated Critic LLM-as-a-Judge validation gate scoring draft analysis on Grounding, Consistency, and Completeness (>= 8.5/10), triggering self-correction passes to eliminate hallucinations.",
+        "Integrated a local DistilRoBERTa transformer for 7-class stakeholder sentiment and risk mapping; deployed production app on Hugging Face Spaces with automated UTF-8 sanitized PDF report compilation.",
+        "Engineered lightweight TF-IDF contextual chunking and cosine similarity retrieval, delivering sub-15s end-to-end response latency across multi-stakeholder queries."
+      ]
+    },
+    "hubmap": {
+      "id": "hubmap",
+      "title": "HuBMAP – Multi-Organ Tissue Unit Segmentation (Medical Computer Vision)",
+      "github": "https://github.com/pravinkumardatafreak/HuBMAP-Tissue-Unit-Segmentation-SOTA",
+      "tools": ["PyTorch", "Swin-TransUNet", "Shifted Window Self-Attention", "Macenko Stain Norm (SVD)", "MC Dropout", "SHAP", "Streamlit"],
+      "bullets": [
+        "Architected an Organ-Prompted Swin-TransUNet combining shifted-window self-attention with spatial skip connections across 5 human organs, achieving 0.6782 Val Dice and 0.5131 IoU (+26.7% over classical U-Net).",
+        "Implemented Macenko optical density stain normalization using Beer-Lambert law and SVD dye matrix decomposition, eliminating cross-laboratory histology slide color variability.",
+        "Integrated Monte Carlo Dropout inference to generate pixel-level epistemic uncertainty heatmaps and SLIC superpixel SHAP explainability, recording 0.33786 Dice on Kaggle private leaderboard.",
+        "Deployed a production Streamlit web application serving real-time medical image inference, test-time augmentation (TTA), and interactive stain normalization diagnostics."
+      ]
+    },
+    "soil-grain-size": {
+      "id": "soil-grain-size",
+      "title": "Predicting Soil Grain Size Distribution from Smartphone Photography",
+      "github": "https://github.com/pravinkumardatafreak/soil-grain-size-distribution",
+      "tools": ["Python", "PyTorch", "Dual-Backbone (EffNet+ResNet)", "MultiTaskElasticNet", "Group-Lasso", "OpenCV"],
+      "bullets": [
+        "Formulated a non-destructive computer vision pipeline predicting continuous 11-fraction soil particle sieve curves (0.002mm to 200mm) directly from multi-sensor smartphone photography.",
+        "Overcame the deep learning 'Regression to the Mean' trap on small sample datasets (N=24), driving test error from 86.14 baseline down to 55.21 Out-of-Fold Weighted EMD and 8.62% MedAE.",
+        "Extracted 1,794 multi-scale visual features using a dual-backbone extractor (EfficientNet-B0 + ResNet-34) and a 10-seed Coordinated MultiTaskElasticNet with Group-Lasso joint regularization.",
+        "Enforced physical Cumulative Distribution Function (CDF) axioms (monotonicity, camera sensor PPM scale calibration, and 100% boundary conditions at 200mm cobbles)."
+      ]
+    },
+    "nifty-50": {
+      "id": "nifty-50",
+      "title": "Nifty 50 Stock Analysis & Quantitative Risk Studio",
+      "github": "https://github.com/pravinkumardatafreak/nifty-50-stock-analysis",
+      "tools": ["Python", "Quantitative Finance", "Statistics", "SQLAlchemy", "Pandas", "NumPy", "Plotly", "Gemini 2.5 Flash"],
+      "bullets": [
+        "Constructed a quantitative equity analytics pipeline tracking 50 benchmark Indian equities across a multi-year timeframe to assess risk-adjusted returns and sector rotations.",
+        "Calculated rolling Sharpe ratios, maximum drawdown distributions, and Pearson correlation matrices to detect market regime shifts and evaluate portfolio diversification benefits.",
+        "Conducted inferential hypothesis testing (Welch's t-test, Mann-Whitney U) to validate statistical significance of post-earnings momentum anomalies against market baselines.",
+        "Built a modular database architecture using SQLAlchemy supporting zero-config SQLite to PostgreSQL migration, deployed via a 7-page interactive Plotly/Streamlit dashboard."
+      ]
+    },
+    "fitbit": {
+      "id": "fitbit",
+      "title": "Fitbit Calorie Burn Prediction & Workout Pattern Clustering",
+      "github": "https://github.com/pravinkumardatafreak/Fitbit-Calorie-Burn-Prediction-Workout-Pattern-Clustering-",
+      "tools": ["Python", "Scikit-Learn", "Random Forest", "K-Means Clustering", "PCA", "Streamlit", "EDA"],
+      "bullets": [
+        "Engineered predictive regression modeling and unsupervised user segmentation pipelines for wearable device health analytics across 14,100+ Fitbit session records.",
+        "Built a Random Forest regression model capturing exponential caloric burn acceleration during anaerobic thresholds, achieving an R² of 0.9979 and MAE of 3.78 kcal (89.2% error reduction over linear baseline).",
+        "Implemented K-Means and PCA clustering with a Silhouette score of 0.4546 to segment users into 4 distinct physiological intensity zones; deployed an interactive parameter simulation dashboard in Streamlit."
+      ]
+    },
+    "imdb": {
+      "id": "imdb",
+      "title": "IMDb Movie Recommendation System (Two-Stage Hybrid)",
+      "github": "https://github.com/pravinkumardatafreak/IMDb-Movie-Recommender",
+      "tools": ["Python", "Sentence-BERT", "TF-IDF", "KNN", "Cosine Distance", "Scikit-Learn", "Streamlit"],
+      "bullets": [
+        "Architected a two-stage hybrid recommendation engine on 5,000+ scraped IMDb titles combining 384-dimensional Sentence-BERT dense embeddings with weighted rating popularity re-ranking.",
+        "Constructed multi-signal 'Metadata Soups' (weighted storylines, certificate classifications, genres, and release eras) to capture rich contextual similarities across sparse movie catalogs.",
+        "Implemented element-wise vector overlap for local XAI (explaining recommendation drivers) and cached vector operations to achieve sub-100ms response latencies in Streamlit."
+      ]
+    }
+  },
+  "experience": {
+    "title": "Data Science Intern",
+    "company": "Internship Studio",
+    "period": "Jan 2026 – Feb 2026 | Remote",
+    "bullets": [
+      "Engineered predictive regression modeling and unsupervised user segmentation pipelines for wearable device health analytics as the core internship deliverable.",
+      "Trained a Random Forest model achieving an R² of 0.9979 and MAE of 3.78 kcal, mapping non-linear metabolic relationships between heart rate intensity and caloric expenditure.",
+      "Implemented K-Means and PCA dimensionality reduction (Silhouette score of 0.4546) to segment users into 4 workout intensity zones; deployed an interactive Streamlit dashboard."
+    ]
+  },
+  "education": [
+    {
+      "degree": "Master Data Science Program",
+      "institution": "HCL GUVI, IIT Madras Research Park Incubated",
+      "period": "Completed June 2026",
+      "details": "Specialized in Machine Learning, Deep Learning (PyTorch/TensorFlow), NLP, Generative AI, and MLOps."
+    },
+    {
+      "degree": "Bachelor of Engineering, Civil Engineering (First Class)",
+      "institution": "Rajalakshmi Engineering College, Anna University",
+      "period": "2017 – 2021 | Chennai",
+      "details": "Rigorous quantitative foundation in structural mechanics, numerical methods, hydraulics, advanced statistics, and engineering modeling."
+    }
+  ],
+  "certifications": [
+    "Build & Deploy AI Apps with Google AI Studio (Multilingual AI Speech App Development)",
+    "Data Analytics using Pandas (Tamil)",
+    "Machine Learning 101",
+    "YUVA AI for ALL, The MAANG Strategy: How Data Science Runs MAANG's Business",
+    "IIT Kharagpur (NPTEL/SWAYAM): Stress Management (4-Week Foundation Course)"
+  ]
+}

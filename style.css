@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* ===================================================================
+   PRAVINKUMAR R - TAILORED ATS RESUMES
+   Navaneethan Executive Format (Navy Blue Accent, 7+/10 Selected Benchmark)
+   =================================================================== */
+
+:root {
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --color-primary: #1a365d;   /* Executive Navy Blue (Navaneethan Standard) */
+  --color-text: #1f2937;
+  --color-dark: #000000;
+  --color-muted: #4b5563;
+  --sheet-width: 210mm;
+  --sheet-height: 297mm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.resume-body {
+  font-family: var(--font-family);
+  background-color: #f3f4f6;
+  color: var(--color-text);
+  line-height: 1.24;
+  font-size: 9.8pt;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  padding: 16px 10px;
+}
+
+/* ===================================================================
+   A4 SHEET CONTAINER (PRECISION 1-PAGE A4)
+   =================================================================== */
+.resume-paper {
+  width: var(--sheet-width);
+  min-height: var(--sheet-height);
+  background-color: #ffffff;
+  padding: 3.5mm 10mm 3mm 10mm; /* Safe 10mm side margins to prevent right-edge clipping */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===================================================================
+   NAVANEETHAN EXECUTIVE HEADER (NAVY ACCENT + DIVIDER)
+   =================================================================== */
+.resume-header-92 {
+  text-align: center;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  border-bottom: 1.8px solid var(--color-primary);
+}
+
+.name-92 {
+  font-size: 19.5pt;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--color-primary);
+  line-height: 1.05;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.title-92 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+
+.contact-line-92 {
+  font-size: 9.5pt;
+  color: #374151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  line-height: 1.22;
+}
+
+.contact-line-92.contact-row-2 {
+  margin-top: 0.5px;
+}
+
+.contact-line-92 a {
+  color: #1a365d;
+  text-decoration: none;
+}
+
+.contact-line-92 a:hover {
+  text-decoration: underline;
+}
+
+.bar-sep {
+  color: #9ca3af;
+  font-weight: 300;
+}
+
+/* ===================================================================
+   SECTION HEADINGS (NAVANEETHAN FORMAT: NAVY BLUE, NO UNDERLINE)
+   =================================================================== */
+.section-92 {
+  margin-bottom: 2.2px;
+}
+
+.section-92:last-child {
+  margin-bottom: 0;
+}
+
+.heading-92 {
+  font-size: 12.5pt; /* Section Headings strictly > 12pt */
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--color-primary); /* Executive Navy Blue */
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.paragraph-92 {
+  font-size: 9.8pt;
+  line-height: 1.26;
+  color: #1f2937;
+  text-align: left;
+}
+
+/* ===================================================================
+   TECHNICAL SKILLS (NAVANEETHAN INLINE FORMAT)
+   =================================================================== */
+.skills-box-92,
+.skills-list-92 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 9.8pt;
+  line-height: 1.25;
+  color: #1f2937;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-line-92,
+.skills-list-92 li {
+  font-size: 9.8pt;
+  text-align: left;
+}
+
+.skills-line-92 strong,
+.skills-list-92 li strong {
+  color: #000000;
+  font-weight: 700;
+  font-size: 9.8pt;
+}
+
+.skills-line-92 span.skill-val,
+.skills-list-92 li span.skill-val {
+  color: #1f2937;
+  font-size: 9.8pt;
+}
+
+/* ===================================================================
+   PROJECTS (NAVANEETHAN FORMAT: TITLE LEFT, TECH STACK RIGHT)
+   =================================================================== */
+.project-block-92 {
+  margin-bottom: 2px;
+}
+
+.project-block-92:last-child {
+  margin-bottom: 0;
+}
+
+.project-header-nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2px;
+}
+
+.item-title-92 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.project-tech-nav {
+  font-size: 9.1pt;
+  font-style: italic;
+  color: #4b5563;
+  text-align: left;
+  line-height: 1.22;
+  margin-top: 0.5px;
+}
+
+.bullet-list-92 {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bullet-list-92 li {
+  position: relative;
+  padding-left: 13px;
+  padding-right: 1px;
+  font-size: 9.8pt;
+  line-height: 1.24;
+  color: #1f2937;
+  margin-bottom: 1px;
+  text-align: left;
+}
+
+.bullet-list-92 li:last-child {
+  margin-bottom: 0;
+}
+
+.bullet-list-92 li::before {
+  content: "\2022";
+  position: absolute;
+  left: 1px;
+  top: -1px;
+  color: #000000;
+  font-size: 9.8pt;
+  line-height: 1;
+}
+
+.bullet-list-92 strong {
+  font-weight: 700;
+  color: #000000;
+}
+
+.extra-projects-note {
+  font-size: 9.3pt;
+  line-height: 1.2;
+  color: #4b5563;
+  font-style: italic;
+  margin-top: 1px;
+}
+
+/* ===================================================================
+   PROFESSIONAL EXPERIENCE (TITLE LEFT, DATE FAR RIGHT)
+   =================================================================== */
+.exp-block-92 {
+  margin-bottom: 2px;
+}
+
+.exp-header-92 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 0.8px;
+}
+
+.item-date-92 {
+  font-size: 9.6pt;
+  font-weight: 500;
+  color: #374151;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ===================================================================
+   EDUCATION (NAVANEETHAN 2-LINE FORMAT: DEGREE LEFT, YEAR RIGHT)
+   =================================================================== */
+.edu-block-92 {
+  width: 100%;
+  margin-bottom: 1.5px;
+}
+
+.edu-header-92 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+}
+
+.edu-sub-92 {
+  font-size: 9.5pt;
+  color: #374151;
+  line-height: 1.2;
+}
+
+/* ===================================================================
+   CLEAN & AESTHETIC CERTIFICATIONS FORMAT
+   =================================================================== */
+.certs-line-clean {
+  font-size: 9.5pt;
+  line-height: 1.26;
+  color: #1f2937;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.certs-line-clean strong {
+  color: #000000;
+}
+
+/* ===================================================================
+   STANDALONE FLOATING ACTION BAR (FOR DEDICATED HTML PAGES)
+   =================================================================== */
+.standalone-bar {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 9999;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(8px);
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.standalone-bar .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.18s ease;
+}
+
+.standalone-bar .btn-print {
+  background: #10b981;
+}
+
+.standalone-bar .btn-print:hover {
+  background: #059669;
+}
+
+.standalone-bar .btn-copy {
+  background: #3b82f6;
+}
+
+.standalone-bar .btn-copy:hover {
+  background: #2563eb;
+}
+
+.standalone-bar .btn-back {
+  background: #334155;
+}
+
+.standalone-bar .btn-back:hover {
+  background: #475569;
+}
+
+/* ===================================================================
+   HUB INTERACTION STYLES (FOR MASTER INDEX.HTML)
+   =================================================================== */
+body.hub-body {
+  font-family: var(--font-family);
+  background-color: #0f172a;
+  color: #f8fafc;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hub-header {
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hub-title-group h1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hub-title-group p {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.tab-buttons {
+  display: flex;
+  background: #0f172a;
+  padding: 4px;
+  border-radius: 8px;
+  gap: 4px;
+  border: 1px solid #334155;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tab-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-btn.active {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4);
+}
+
+.hub-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+.hub-btn-print {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.hub-btn-print:hover {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+.hub-btn-copy {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+.hub-btn-copy:hover {
+  background: #2563eb;
+}
+
+.hub-btn-link {
+  background: #334155;
+  color: #f1f5f9;
+}
+
+.hub-btn-link:hover {
+  background: #475569;
+}
+
+.hub-preview-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px 40px;
+  background: #0f172a;
+}
+
+/* Tab View Containers */
+.resume-view {
+  display: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.resume-view.active {
+  display: flex;
+}
+
+/* ===================================================================
+   UNIFIED PRINT RULES (STRICT 1-PAGE A4 ZERO SPILLOVER)
+   =================================================================== */
+@page {
+  size: A4 portrait;
+  margin: 3.5mm 10mm 3mm 10mm;
+}
+
+@media print {
+  html, body.resume-body, body.hub-body {
+    background: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    color: #000000 !important;
+  }
+
+  .standalone-bar, .hub-header, .no-print {
+    display: none !important;
+  }
+
+  .hub-preview-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+    display: block !important;
+  }
+
+  .resume-view {
+    display: none !important;
+  }
+
+  .resume-view.active {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .resume-paper {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .section-92, .project-block-92, .exp-block-92, .edu-block-92 {
+    page-break-inside: avoid !important;
+  }
+
+  a {
+    color: #1a365d !important;
+    text-decoration: none !important;
+  }
+}
+
+
+
+

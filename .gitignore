@@ -1,0 +1,27 @@
+# ==============================================================================
+# ATS RESUME ENGINE - GITIGNORE
+# Keeps company-specific tailoring files, internal job descriptions,
+# and temporary build artifacts private while maintaining public repo credibility.
+# ==============================================================================
+
+# Internal Job Descriptions & Research Notes
+job_descriptions/
+*.ps1
+
+# Company-Specific Tailored Builds (Keep private to protect recruitment confidentiality)
+*aptiv*
+*cognizant*
+*target*
+*satsure*
+
+# Temporary Test & Debug Files
+resume_ds_temp.html
+resume_ds_test_layout.html
+test_stacked.pdf
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
